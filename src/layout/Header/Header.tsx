@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router'
 import { clsx } from 'clsx'
 import { ThemeSwitcher } from '@/widgets/theme-switcher/ThemeSwitcher.tsx'
-import s from './header.module.css'
+import s from './Header.module.css'
 
 const NAV_LINKS = [
   { to: '/', label: 'Sprint\u00A01', id: 'nav-link-sprint-1' },
