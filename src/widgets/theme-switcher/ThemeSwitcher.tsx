@@ -76,7 +76,6 @@ export const ThemeSwitcher = () => {
               id="hw11-dark"
               name="theme"
               value="dark"
-              // @ts-expect-error - после выполнения задания комментарий можно удалить!
               checked={themeMode === 'dark'}
               onChange={handleChange}
             />
@@ -90,7 +89,6 @@ export const ThemeSwitcher = () => {
               id="hw11-system"
               name="theme"
               value="system"
-              // @ts-expect-error - после выполнения задания комментарий можно удалить!
               checked={themeMode === 'system'}
               onChange={handleChange}
             />

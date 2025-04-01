@@ -1,4 +1,4 @@
-import { House, houses } from './wizard-world-data.ts'
+import { HouseFullInfo, houses } from './wizard-world-data.ts'
 
 export const wizardFakeApi = {
   getHouses() {
@@ -16,7 +16,7 @@ export const wizardFakeApi = {
     })
   },
   getHouseById(id: string) {
-    return new Promise<House>((resolve, reject) => {
+    return new Promise<HouseFullInfo>((resolve, reject) => {
       setTimeout(() => {
         const house = houses.find((house) => house.id === id)
 
