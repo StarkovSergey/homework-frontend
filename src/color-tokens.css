@@ -1,0 +1,11 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --bg-color-hover: #f9f9f9;
+}
+
+:root[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --bg-color-hover: #2c2c2c;
+}

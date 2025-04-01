@@ -1,0 +1,38 @@
+.container {
+  padding: 20px 0;
+}
+
+.contentBox {
+  display: flex;
+  gap: 50px;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.image {
+  width: 300px;
+
+  height: auto;
+  border-radius: 8px;
+}
+
+.textColumn {
+
+}
+
+.loading {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+}

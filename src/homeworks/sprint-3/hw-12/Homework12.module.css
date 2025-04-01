@@ -1,0 +1,13 @@
+.watch {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 15px;
+}
+
+.more {
+  position: absolute;
+}

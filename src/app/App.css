@@ -1,0 +1,13 @@
+main.container {
+  padding-bottom: 40px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root > main {
+  flex-grow: 1;
+}
